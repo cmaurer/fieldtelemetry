@@ -23,8 +23,8 @@ DallasTemperature sensors(&oneWire);
 //-------------------------------------------------------------
 //---------------------Ubidots Configuration-------------------
 //-------------------------------------------------------------
-String token = "Nwnxtx75dNS2NZOMz3Ez2IrNjhwY5F275kiXxBZQVxt7f2dy8ftzLR0Ou782";      //your token to post value
-String idvariable = "54dfa06b7625424c1a839e42";                                     //ID of your variable
+String token = "";      
+String idvariable = "";                                  
 
 void setup() {
   //the GPRS baud rate
